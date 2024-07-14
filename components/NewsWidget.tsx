@@ -17,9 +17,9 @@ function NewsWidget({}: Props) {
                         <ImPriceTag className="w-3 h-3" />
                         <span className="text-sm font-medium line-clamp-3">Looking good</span>
                     </div>
-                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GAZA: YOUR QUESTIONS ANSWERED </h1>
-                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Palestinians trapped in the Gaza Strip remains an insurmountable challenge. Alongside our efforts to advocate for a ceasefire, it…</p>
-                    <div className="pb-4 text-xs font-bold">by Oxfam Canada | June 21, 2024</div>
+                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GHANA: YOUR QUESTIONS ANSWERED </h1>
+                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Africans trapped in the poverty remains an insurmountable challenge. Alongside our efforts to advocate for support, it…</p>
+                    <div className="pb-4 text-xs font-bold">by ACO | June 21, 2024</div>
                 </div> 
               </div>
 
@@ -30,9 +30,9 @@ function NewsWidget({}: Props) {
                         <ImPriceTag className="w-3 h-3" />
                         <span className="text-sm font-medium line-clamp-3">Looking good</span>
                     </div>
-                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GAZA: YOUR QUESTIONS ANSWERED </h1>
-                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Palestinians trapped in the Gaza Strip remains an insurmountable challenge. Alongside our efforts to advocate for a ceasefire, it…</p>
-                    <div className="pb-4 text-xs font-bold">by Oxfam Canada | June 21, 2024</div>
+                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GHANA: YOUR QUESTIONS ANSWERED </h1>
+                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Africans trapped in the poverty remains an insurmountable challenge. Alongside our efforts to advocate for support, it…</p>
+                    <div className="pb-4 text-xs font-bold">by ACO | June 21, 2024</div>
                 </div> 
               </div>
 
@@ -43,9 +43,9 @@ function NewsWidget({}: Props) {
                         <ImPriceTag className="w-3 h-3" />
                         <span className="text-sm font-medium line-clamp-3">Looking good</span>
                     </div>
-                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GAZA: YOUR QUESTIONS ANSWERED </h1>
-                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Palestinians trapped in the Gaza Strip remains an insurmountable challenge. Alongside our efforts to advocate for a ceasefire, it…</p>
-                    <div className="pb-4 text-xs font-bold">by Oxfam Canada | June 21, 2024</div>
+                    <h1 className="text-lg font-black leading-6 text-[#44841B]">DELIVERING AID IN GHANA: YOUR QUESTIONS ANSWERED </h1>
+                    <p className="text-base font-medium line-clamp-4">After eight months of conflict, delivering aid to the millions of Africans trapped in the poverty remains an insurmountable challenge. Alongside our efforts to advocate for support, it…</p>
+                    <div className="pb-4 text-xs font-bold">by ACO | June 21, 2024</div>
                 </div> 
               </div>
 
