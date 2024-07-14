@@ -80,7 +80,7 @@ function Header() {
                                 <NavigationMenuContent className="">
                                 <ul className="py-3 w-48 font-medium text-base">
                                     { r?.subMenu?.map((s) => (
-                                        <Link href={s.link}>
+                                        <Link key={s.link} href={s.link}>
                                             <NavigationMenuLink asChild >
                                                 <div key={s?.label} className="px-4 py-2 w-full hover:bg-red-100 text-black">{s?.label}</div>
                                             </NavigationMenuLink>

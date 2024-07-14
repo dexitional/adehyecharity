@@ -23,9 +23,9 @@ function MainNav({ data }: Props) {
                     <MenubarContent className="font-sans border-gray-200 border-t-0 rounded-none">
                         <ul className="py-3 w-62 font-medium text-base">
                         { r?.subMenu?.map((s:any) => (
-                            <Link href={s.link}>
-                                <div >
-                                    <div key={s?.label} className="px-4 py-2 w-full hover:text-[#44841B] text-gray-600/90">{s?.label}</div>
+                            <Link key={s?.label} href={s.link}>
+                                <div>
+                                    <div  className="px-4 py-2 w-full hover:text-[#44841B] text-gray-600/90">{s?.label}</div>
                                 </div>
                             </Link>
                         ))}
