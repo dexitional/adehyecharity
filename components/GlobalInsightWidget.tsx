@@ -6,15 +6,15 @@ type Props = {}
 function GlobalInsightWidget({}: Props) {
   
   const pills = [
-     { title: 'HUMANITARIAN RESPONSE', content:'We provide emergency aid when disaster strikes or conflict breaks out.' },
+     { title: 'HUMANITARIAN RESPONSE', content:'Bringing food, medical care, clean and safe drinking water to the deprived in developing countries.' },
      { title: 'LONG-TERM DEVELOPMENT', content:'We support projects that help people assert their rights and build better lives.' },
-     { title: 'ADVOCACY & CAMPAIGNING', content:'We work to change the laws and practices that perpetuate inequality and keep people trapped in poverty.' },
+     { title: 'ADVOCACY & CAMPAIGNING', content:'Protect and defend the most fundamental right of humankind, the right to life of every human being.' },
   ]
   return (
     <div className="w-full bg-white font-sans">
-        <div className="py-10 sm:py-28 px-4 sm:px-10 sm:mx-auto sm:max-w-7xl flex flex-col space-y-12 justify-center items-center">
-            <h2 className="w-1/2 text-[2.7rem] text-center font-black leading-tight ">ENDING POVERTY. FIGHTING INEQUALITY. TOGETHER. <span className="px-4 py-1 bg-green-700 text-white">lookings</span></h2>
-            <p className='w-4/5 text-[1.7rem] font-medium text-center'>Oxfam is a global organization working to end the injustice of poverty and inequality by focusing on women’s rights. That’s why at Oxfam Canada, we work in three critical areas:</p>
+        <div className="py-6 sm:py-10 sm:pt-6 sm:pb-12 px-4 sm:px-10 sm:mx-auto sm:max-w-7xl flex flex-col space-y-6 sm:space-y-12 justify-center items-center">
+            <h2 className="w-1/2 text-2xl sm:text-[2.7rem] text-center font-black leading-tight"> <br/><span className="px-4 py-1 bg-green-700 text-white">The Mission</span></h2>
+            <p className='w-[90%] text-xl sm:text-[1.7rem] font-medium text-center'>Our mission is to alleviate suffering, promote dignity and improve the quality of life for those in need. We are committed to doing compassionate charity work, providing essential resources, support and opportunities that empower individuals and communities to overcome challenges and brighter future. </p>
             <div className='mt-10 grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-28'>
                 { pills?.map(r => <InsightBox key={r.title} data={r} />)}
             </div>

@@ -1,5 +1,7 @@
 import React from 'react'
-import Bg from '../public/pablo.jpg'
+import Bg1 from '../public/b1.jpg'
+import Bg2 from '../public/b2.jpg'
+import Bg3 from '../public/b3.jpg'
 import Image from 'next/image'
 import { MdPlayArrow } from 'react-icons/md'
 import Link from 'next/link'
@@ -7,9 +9,9 @@ type Props = {}
 
 function SpotlightMain({}: Props) {
   const data = [
-    { image: Bg , title: 'SEE HOW ENDING GLOBAL POVERTY BEGINS WITH', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
-    { image: Bg , title: 'LETS LEND A HELPING HAND WITH', subtitle: 'THE ART OF CARING', label: 'DONATE', link: '#' },
-    { image: Bg , title: 'TESTIMONIES IN ', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
+    { image: Bg1 , title: 'SEE HOW ENDING GLOBAL POVERTY BEGINS WITH', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
+    { image: Bg2 , title: 'LETS LEND A HELPING HAND WITH', subtitle: 'THE ART OF CARING', label: 'DONATE', link: '#' },
+    { image: Bg3 , title: 'TESTIMONIES IN ', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
   ];
   const index = Math.floor(Math.random() * data.length);
   const row = data && data[index] 
@@ -17,7 +19,7 @@ function SpotlightMain({}: Props) {
   return (
     <>
     <div className="relative h-64 sm:h-[650px] w-full bg-gray-500">
-        <Image src={row.image} alt="Bg" className="z-10 object-cover object-left-top" fill />
+        <Image src={row.image} alt="Bg" className="z-10 object-cover object-center" fill />
         <div className="z-10 hidden sm:block absolute left-1/2 top-1/3 text-5xl text-white">
             <div className="z-10 p-10 w-[36rem] rounded-xl border-b-[20px] border-white bg-orange-300 bg-opacity-70 backdrop-blur-xs  font-sans text-2xl">
                 <h1 className="text-5xl text-black font-black">{row.title}</h1>
