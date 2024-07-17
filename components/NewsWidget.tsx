@@ -48,7 +48,7 @@ function NewsWidget({}: Props) {
           </div>
         </div>
         <div className="py-14 px-4 sm:px-10 sm:mx-auto sm:max-w-7xl grid grid-cols-1 sm:grid-cols-3 gap-10">
-           { data.map(r => (<NewsBox data={r} />))}
+           { data.map(r => (<NewsBox key={r?.title} data={r} />))}
         </div>
     </div>
   )

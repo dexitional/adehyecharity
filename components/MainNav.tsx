@@ -36,8 +36,8 @@ function MainNav({ data }: Props) {
                 
         </Menubar>
         <div className="px-8 py-3 bg-[#EE3E02] cursor-pointer text-white flex items-center space-x-2 justify-between">
-            <span className="font-bold ">DONATE</span>
-            <MdDoubleArrow className="h-6 w-6" />
+          <span className="font-bold ">DONATE</span>
+          <MdDoubleArrow className="h-6 w-6" />
         </div>
     </nav>
   )

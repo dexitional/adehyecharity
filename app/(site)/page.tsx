@@ -1,8 +1,10 @@
 import Footer from "@/components/Footer";
 import GlobalInsightWidget from "@/components/GlobalInsightWidget";
 import Header from "@/components/Header"
+import NewsLetterWidget from "@/components/NewsLetterWidget";
 import NewsWidget from "@/components/NewsWidget";
 import SpotlightMain from "@/components/SpotlightMain";
+import TakeActionWidget from "@/components/TakeActionWidget";
 
 export default function Home() {
   return (
@@ -14,6 +16,9 @@ export default function Home() {
        {/* Newsroom widget */}
        <NewsWidget />
        {/* TakeAction widget */}
+       <TakeActionWidget />
+       {/* NewsLetter */}
+       <NewsLetterWidget />
     </main>
   );
 }
