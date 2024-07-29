@@ -6,10 +6,10 @@ type Props = {}
 function NewsLetterWidget({}: Props) {
   return (
     <div className="w-full bg-[#44841b]">
-        <form action="" method="post" className="px-4 py-20 mx-auto max-w-6xl flex items-center justify-center font-sans">
-            <h1 className="w-48 text-5xl font-bold text-white">JOIN US</h1>
+        <form action="" method="post" className="px-4 py-10 md:py-20 md:mx-auto md:max-w-6xl flex flex-col md:flex-row items-center justify-center  space-y-10 font-sans">
+            <h1 className="md:w-48 text-3xl md:text-5xl font-bold text-white">JOIN US</h1>
             <div className="flex flex-col space-y-4">
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div className="flex flex-col space-y-1">
                         <label htmlFor="" className="text-white text-base tracking-wide">First Name (required)</label>
                         <input type="text" className="px-6 py-3" name="" placeholder="" />
@@ -32,7 +32,7 @@ function NewsLetterWidget({}: Props) {
                 </div>
                 <label className="flex items-center space-x-3 text-base text-white">
                     <input type="checkbox" name="" className="h-5 w-5"/>
-                    <span>I would like to receive email updates from Oxfam Canada. I understand I can unsubscribe at any time.</span>
+                    <span>I would like to receive email updates from OCA. I understand I can unsubscribe at any time.</span>
                 </label>
             </div>
         </form>

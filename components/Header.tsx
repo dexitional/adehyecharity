@@ -15,37 +15,37 @@ function Header() {
      { label: 'Who We Are', 
        link: '', 
        subMenu : [
-          { label: 'Our Mission, Vision and Values', link: '' },
-          { label: 'Our Team', link: '' },
-          { label: 'Meet our Fundraisers', link: '' },
-          { label: 'Contact Us', link: '' },
+          { label: 'Our Mission, Vision and Values', link: '/our-vision' },
+          { label: 'Our Team', link: '/our-team  ' },
+          //{ label: 'Meet our Fundraisers', link: '' },
+          { label: 'Contact Us', link: 'contact-us' },
           
        ] 
      },
      { label: 'What We Do', 
         link: '', 
         subMenu : [
-           { label: 'Our Projects', link: '/projects' },
-           { label: 'Our Approach', link: '/approach' },
-           { label: 'Stories of Change', link: '/change-stories' },
+           { label: 'Our Projects', link: '/our-projects' },
+           { label: 'Our Approach', link: '/our-approach' },
+           //{ label: 'Stories of Change', link: '/change-stories' },
         ] 
      },
 
-     { label: 'Take Action', 
-        link: '', 
-        subMenu : [
-           { label: 'Become A Volunteer', link: '/volunteer' },
-           { label: 'Fundraise for ACO', link: 'fundraiser' },
-           { label: 'Become a Monthly Donor', link: 'month-donor' },
-           { label: 'Become a Corporate Partner', link: 'partner' },
-        ] 
-     },
+   //   { label: 'Take Action', 
+   //      link: '', 
+   //      subMenu : [
+   //         { label: 'Become A Volunteer', link: '/our-volunteer' },
+   //         //{ label: 'Fundraise for ACO', link: 'fundraiser' },
+   //         { label: 'Become a Monthly Donor', link: 'our-donor' },
+   //         { label: 'Become a Corporate Partner', link: 'our-partner' },
+   //      ] 
+   //   },
      { label: 'News & Stories', 
         link: '', 
         subMenu : [
-            { label: 'Newsroom', link: '/newsroom' },
-           { label: 'Adehye Stories', link: 'stories' },
-           { label: 'Newsletters', link: 'newsletters' },
+           { label: 'Newsroom', link: '/newsroom' },
+           //{ label: 'Adehye Stories', link: 'stories' },
+           //{ label: 'Newsletters', link: 'newsletters' },
         ] 
      }
   ];

@@ -49,7 +49,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${tstar.variable} min-h-screen flex flex-col items-end justify-between`}>
         <Header />
         {/* mt-[8.75rem] */}
-        <main className="w-full h-full bg-green-400 border">
+        <main className="w-full h-full">
           {children}
         </main>
         <Footer />

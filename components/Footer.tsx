@@ -13,7 +13,7 @@ function Footer() {
     <footer className="w-full shadow-[0px_10px_10px_#eee]">
         {/* Menu Bar */}
         <div className="px-5 py-5 sm:py-10 w-full bg-[#FA981C] font-sans">
-           <div className="sm:mx-auto w-full sm:max-w-5xl flex flex-col sm:flex-row space-y-10 sm:space-y-0 sm:items-center sm:justify-between">
+           <div className="sm:mx-auto w-full sm:max-w-5xl flex flex-col sm:flex-row space-y-10 sm:space-y-0 sm:items-center sm:justify-between [&_div]:min-h-max">
              <FooterSideLeft />
              <FooterSideMid />
              <FooterSideRight />
