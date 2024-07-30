@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <main className="p-0 w-full flex flex-col items-start justify-start bg-red-50">
        {/* PageTitleCover */}
-       <PageTitleCover title="Contact Us" subtitle="We're here to help. Reach out to us anytime." label="Donate Now" link="#" />
+       <PageTitleCover title="Contact Us" subtitle="We are here to help. Reach out to us anytime." label="Donate Now" link="#" />
        <PageContentWrapper>
           <h2>HOW TO REACH US</h2>
-          <h3>Our national office is located in Accra, Ghana. We work with partners, supporters, volunteers and philanthropists across the country. No matter where you live in Ghana, we're here for you.</h3>
+          <h3>Our national office is located in Accra, Ghana. We work with partners, supporters, volunteers and philanthropists across the country. No matter where you live in Ghana, we are here for you.</h3>
           <p>If an employee, volunteer, partner, consultant or contractor suspects misconduct has occurred, or is about to occur, we encourage you to communicate your suspicions without fear of reprisal and in the knowledge that you will be protected from victimization and dismissal.</p>
           <p>To report misconduct, please <a>fill out our confidential reporting form here</a>, email us at <a>info@adehyecharity.com</a> or Call us at Phone: <a>27-767-0000</a></p>
           <hr/>
